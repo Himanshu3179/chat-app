@@ -28,4 +28,4 @@ jobs:
             -t ${{ secrets.DOCKER_USERNAME }}/chat-app:latest \
             -f ./app/Dockerfile \
             ./app
-          docker push ${{ secrets.DOCKER_USERNAME }}/chat-app:latests
+          docker push ${{ secrets.DOCKER_USERNAME }}/chat-app:latest
