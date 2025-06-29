@@ -53,5 +53,5 @@ jobs:
               -p 80:80 \
               -e MONGODB_URI="${{ secrets.MONGODB_URI }}" \
               -e JWT_SECRET="${{ secrets.JWT_SECRET }}" \
-              himanshusingh3179/chat-app:latest
+              himanshu3179/chat-app:latest
             echo "Deployment script finished. Your application should now be live on http://${{ secrets.SSH_HOST }}"
