@@ -45,7 +45,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            sudo docker pull himanshusingh3179/chat-app:latest
+            sudo docker pull himanshu3179/chat-app:latest
             sudo docker stop chat-app || true
             sudo docker rm chat-app || true
             sudo docker run -d \
